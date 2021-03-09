@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Greet} from './components/Greet';
-import Welcome from './components/welcom';
-import Hello from "./components/Hello";
-import Message from './components/Message';
-import Counter from './components/Counter';
-import UserList from './components/FetchData';
+// import { Greet} from './components/Greet';
+// import Welcome from './components/welcom';
+// import Hello from "./components/Hello";
+// import Message from './components/Message';
+// import Counter from './components/Counter';
+// import UserList from './components/FetchData';
 import NewsList from './components/NewsList';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
 
 class App extends Component {
 

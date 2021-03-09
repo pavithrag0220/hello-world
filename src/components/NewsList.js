@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './mystyle.css';
-import { Card, Row, Col, Container , Badge} from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 
 class NewsList extends Component {
    state = {
@@ -31,8 +31,8 @@ class NewsList extends Component {
             <div className="headline">
                 <label>ABC NEWS HEADLINES</label>
             </div>  
-            {newsList.length > 0 && newsList.map(user => (
-              <div key={user}>
+            {newsList.length > 0 && newsList.map((user, index) => (
+              <div key={index}>
                 <Container>
                 <Row> 
                     <Col md="12" className="center">  
