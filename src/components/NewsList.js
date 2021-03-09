@@ -14,7 +14,7 @@ class NewsList extends Component {
 
    getNewsList = async () => {
        try { //try to get data
-           const response = await fetch("http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b8866d4d2ef7432fad0e1e1f9325171e");
+           const response = await fetch("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b8866d4d2ef7432fad0e1e1f9325171e");
            if (response.ok) { // ckeck if status code is 200
                const data = await response.json();
                this.setState({ newsList: data.articles});
