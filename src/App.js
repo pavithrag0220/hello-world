@@ -4,9 +4,9 @@ import './App.css';
 // import Welcome from './components/welcom';
 // import Hello from "./components/Hello";
 // import Message from './components/Message';
-// import Counter from './components/Counter';
+import Counter from './components/Counter';
 // import UserList from './components/FetchData';
-import NewsList from './components/NewsList';
+// import NewsList from './components/NewsList';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
@@ -17,10 +17,10 @@ class App extends Component {
     return(
       <div className="App">
         {/* <FunctionClick/>
-        <ClassClick/>
+        // <ClassClick/>
         <EventBind/> */}
-        <NewsList/>
-        {/* <Counter/> */}
+        {/* <NewsList/> */}
+        <Counter/>
         {/* <UserList/> */}
         {/* <Message></Message> */}
          {/* <Greet name="Bruce" heroName="Batman">
